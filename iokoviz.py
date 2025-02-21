@@ -8,7 +8,7 @@ import numpy as np
 QUESTIONS_PER_TOUR = 12  # Can be changed to any number
 NUMBER_OF_TOURS = 9  # Can be changed to any number
 TOTAL_QUESTIONS = QUESTIONS_PER_TOUR * NUMBER_OF_TOURS
-INPUT_FILENAME = 'paste.txt'  # Change this to your input file name
+INPUT_FILENAME = 'tournament_transformed.csv'  # Change this to your input file name
 OUTPUT_FILENAME = INPUT_FILENAME.replace('.txt', '').replace('.csv', '') + '_animated.gif'
 
 # Read data from CSV
